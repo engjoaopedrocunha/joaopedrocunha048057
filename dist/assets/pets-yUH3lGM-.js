@@ -1,1 +1,0 @@
-import{a as e}from"./loader-circle-BwTFM76g.js";const r=(t=1,s=10,a="")=>{const p=new URLSearchParams({page:t.toString(),limit:s.toString()});return a&&p.append("search",a),e.get(`v1/pets?${p.toString()}`)},n=t=>e.get(`v1/pets/${t}`),g=t=>e.post("v1/pets",t),c=(t,s)=>e.put(`v1/pets/${t}`,s);export{n as a,g as c,r as g,c as u};
